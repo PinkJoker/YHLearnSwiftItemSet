@@ -20,7 +20,8 @@ class rootViewController: UIViewController, UITableViewDataSource,UITableViewDel
         self.rootTableView.dataSource = self
         self.rootTableView.delegate = self
         self.rootTableView.frame = CGRect.init(x: 0, y: 0, width: self.view.frame.size.width, height: self.view.frame.size.height)
-    
+        rootTableView.backgroundColor = UIColor.brown
+        rootTableView.tableFooterView = UIView.init()
 //        self.rootTableView.
         // Do any additional setup after loading the view.
     }
@@ -29,22 +30,7 @@ class rootViewController: UIViewController, UITableViewDataSource,UITableViewDel
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-     let   cell = UITableViewCell.init(style: UITableViewCellStyle.default, reuseIdentifier: "cell")
-        cell.textLabel?.text = titleArray[indexPath.row]
-        return cell
-    }
-    
-    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 44
-    }
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return titleArray.count
-    }
-    func numberOfSections(in tableView: UITableView) -> Int {
-        return 1
-    }
+
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         if indexPath.row == 0 {
@@ -65,6 +51,9 @@ class rootViewController: UIViewController, UITableViewDataSource,UITableViewDel
         }else if indexPath.row == 5{
             let sixView = locationViewController()
             self.navigationController?.pushViewController(sixView, animated: true)
+        }else if indexPath.row == 6{
+            let sevenView = sevenViewController()
+            self.navigationController?.pushViewController(sevenView, animated: true)
         }
     }
     /*
@@ -77,4 +66,30 @@ class rootViewController: UIViewController, UITableViewDataSource,UITableViewDel
     }
     */
 
+}
+
+
+extension rootViewController{
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let   cell = UITableViewCell.init(style: UITableViewCellStyle.default, reuseIdentifier: "cell")
+        cell.textLabel?.text = titleArray[indexPath.row]
+        cell.backgroundColor = UIColor.black
+        cell.textLabel?.textColor = UIColor.white
+        return cell
+    }
+    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 44
+    }
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return titleArray.count
+    }
+    func numberOfSections(in tableView: UITableView) -> Int {
+        return 1
+    }
+    
+    func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
+        
+    }
 }
