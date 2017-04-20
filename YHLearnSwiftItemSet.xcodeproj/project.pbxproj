@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0678638EEB11B95CDE3F3189 /* Pods_YHLearnSwiftItemSet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 450F9E6C4C85FC14636911E7 /* Pods_YHLearnSwiftItemSet.framework */; };
+		370CECF61EA89BEC004141ED /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 370CECF51EA89BEC004141ED /* CoreLocation.framework */; };
 		373EDC8E1EA5FC8100D2026A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373EDC8D1EA5FC8100D2026A /* AppDelegate.swift */; };
 		373EDC931EA5FC8100D2026A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 373EDC911EA5FC8100D2026A /* Main.storyboard */; };
 		373EDC951EA5FC8100D2026A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 373EDC941EA5FC8100D2026A /* Assets.xcassets */; };
@@ -27,6 +28,8 @@
 		37603C2B1EA846A500B900FA /* 6.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 37603C241EA846A500B900FA /* 6.jpeg */; };
 		37603C2E1EA846C100B900FA /* beijing.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 37603C2D1EA846C100B900FA /* beijing.jpg */; };
 		37603C321EA84ABA00B900FA /* dataSources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37603C311EA84ABA00B900FA /* dataSources.swift */; };
+		37603C351EA8598900B900FA /* locationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37603C341EA8598900B900FA /* locationViewController.swift */; };
+		37603C371EA85C0100B900FA /* desk_005.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 37603C361EA85C0100B900FA /* desk_005.jpg */; };
 		37F7EBE01EA6EA9A00C2B7DB /* videoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F7EBDF1EA6EA9A00C2B7DB /* videoListViewController.swift */; };
 		37F7EBE21EA6EAB100C2B7DB /* videoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F7EBE11EA6EAB100C2B7DB /* videoTableViewCell.swift */; };
 		37F7EBE51EA7101A00C2B7DB /* emoji zone.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 37F7EBE41EA7101A00C2B7DB /* emoji zone.mp4 */; };
@@ -39,6 +42,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		370CECF51EA89BEC004141ED /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		373EDC8A1EA5FC8100D2026A /* YHLearnSwiftItemSet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YHLearnSwiftItemSet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		373EDC8D1EA5FC8100D2026A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		373EDC921EA5FC8100D2026A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -60,6 +64,8 @@
 		37603C241EA846A500B900FA /* 6.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpeg; sourceTree = "<group>"; };
 		37603C2D1EA846C100B900FA /* beijing.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beijing.jpg; sourceTree = "<group>"; };
 		37603C311EA84ABA00B900FA /* dataSources.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dataSources.swift; sourceTree = "<group>"; };
+		37603C341EA8598900B900FA /* locationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = locationViewController.swift; sourceTree = "<group>"; };
+		37603C361EA85C0100B900FA /* desk_005.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = desk_005.jpg; sourceTree = "<group>"; };
 		37F7EBDF1EA6EA9A00C2B7DB /* videoListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = videoListViewController.swift; sourceTree = "<group>"; };
 		37F7EBE11EA6EAB100C2B7DB /* videoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = videoTableViewCell.swift; sourceTree = "<group>"; };
 		37F7EBE41EA7101A00C2B7DB /* emoji zone.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "emoji zone.mp4"; sourceTree = "<group>"; };
@@ -79,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				370CECF61EA89BEC004141ED /* CoreLocation.framework in Frameworks */,
 				0678638EEB11B95CDE3F3189 /* Pods_YHLearnSwiftItemSet.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -114,6 +121,7 @@
 				37F7EBE31EA6EAC600C2B7DB /* three */,
 				37F7EBF11EA7578600C2B7DB /* four */,
 				37F7EBF21EA7579100C2B7DB /* five */,
+				37603C331EA8584A00B900FA /* six */,
 				373EDC911EA5FC8100D2026A /* Main.storyboard */,
 				373EDC941EA5FC8100D2026A /* Assets.xcassets */,
 				373EDC961EA5FC8100D2026A /* LaunchScreen.storyboard */,
@@ -146,6 +154,15 @@
 				37603C2D1EA846C100B900FA /* beijing.jpg */,
 			);
 			path = meinv;
+			sourceTree = "<group>";
+		};
+		37603C331EA8584A00B900FA /* six */ = {
+			isa = PBXGroup;
+			children = (
+				37603C341EA8598900B900FA /* locationViewController.swift */,
+				37603C361EA85C0100B900FA /* desk_005.jpg */,
+			);
+			name = six;
 			sourceTree = "<group>";
 		};
 		37F7EBE31EA6EAC600C2B7DB /* three */ = {
@@ -192,6 +209,7 @@
 		3B277EFBFFED37046E727E48 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				370CECF51EA89BEC004141ED /* CoreLocation.framework */,
 				450F9E6C4C85FC14636911E7 /* Pods_YHLearnSwiftItemSet.framework */,
 			);
 			name = Frameworks;
@@ -276,6 +294,7 @@
 				37603C281EA846A500B900FA /* 3.jpg in Resources */,
 				373EDC981EA5FC8100D2026A /* LaunchScreen.storyboard in Resources */,
 				373EDCAC1EA622ED00D2026A /* Gaspar Regular.otf in Resources */,
+				37603C371EA85C0100B900FA /* desk_005.jpg in Resources */,
 				37603C271EA846A500B900FA /* 2.jpg in Resources */,
 				37603C2E1EA846C100B900FA /* beijing.jpg in Resources */,
 				373EDCAF1EA622ED00D2026A /* MFZhiHei_Noncommercial-Regular.ttf in Resources */,
@@ -354,6 +373,7 @@
 				37F7EBE81EA736EB00C2B7DB /* fourViewController.swift in Sources */,
 				373EDCA61EA61E1100D2026A /* twoViewController.swift in Sources */,
 				37F7EBE01EA6EA9A00C2B7DB /* videoListViewController.swift in Sources */,
+				37603C351EA8598900B900FA /* locationViewController.swift in Sources */,
 				37F7EBF01EA73FF900C2B7DB /* rightViewVC.swift in Sources */,
 				37F7EBEA1EA73B5C00C2B7DB /* leftView.swift in Sources */,
 			);

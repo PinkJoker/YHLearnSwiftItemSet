@@ -62,7 +62,9 @@ class rootViewController: UIViewController, UITableViewDataSource,UITableViewDel
         }else if indexPath.row == 4{
             let fiveView = fiveViewController()
             self.navigationController?.pushViewController(fiveView, animated: true)
-            
+        }else if indexPath.row == 5{
+            let sixView = locationViewController()
+            self.navigationController?.pushViewController(sixView, animated: true)
         }
     }
     /*

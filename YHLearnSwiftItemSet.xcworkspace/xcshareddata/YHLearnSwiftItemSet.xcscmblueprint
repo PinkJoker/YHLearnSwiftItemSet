@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "645FDF10517F8E8787E3FD8307B8DE5FAAA92C36",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "645FDF10517F8E8787E3FD8307B8DE5FAAA92C36" : 9223372036854775807,
+    "0797334767BB48B318F0FE05CFD97CBA1A404191" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "9147406E-2326-4422-9FA8-D69251AC1A0E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "645FDF10517F8E8787E3FD8307B8DE5FAAA92C36" : "YHLearnSwiftItemSet\/",
+    "0797334767BB48B318F0FE05CFD97CBA1A404191" : "thirty-three\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "YHLearnSwiftItemSet",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "YHLearnSwiftItemSet.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/allenwong\/30DaysofSwift.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0797334767BB48B318F0FE05CFD97CBA1A404191"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/PinkJoker\/YHLearnSwiftItemSet.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "645FDF10517F8E8787E3FD8307B8DE5FAAA92C36"
+    }
+  ]
+}
