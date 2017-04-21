@@ -20,7 +20,7 @@ class videoListViewController: UIViewController ,UITableViewDataSource, UITableV
         video(image: "videoScreenshot05", title: "Facebook HQ", source: "Facebook - 10:20"),
         video(image: "videoScreenshot06", title: "Lijiang Lugu Lake", source: "Allen - 20:30")
     ]
-    
+
     var playViewVC = AVPlayerViewController()
     var playerView = AVPlayer()
     

@@ -15,6 +15,7 @@ struct video {
     let source:String
 }
 
+
 class videoTableViewCell: UITableViewCell {
 
     var videoImageView:UIImageView!

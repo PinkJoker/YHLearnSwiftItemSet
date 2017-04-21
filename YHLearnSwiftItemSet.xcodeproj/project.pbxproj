@@ -32,6 +32,8 @@
 		37603C351EA8598900B900FA /* locationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37603C341EA8598900B900FA /* locationViewController.swift */; };
 		37603C371EA85C0100B900FA /* desk_005.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 37603C361EA85C0100B900FA /* desk_005.jpg */; };
 		378C80CE1EA991E50004BFE0 /* am.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 378C80CD1EA991E50004BFE0 /* am.mp3 */; };
+		378C80D01EA9D5880004BFE0 /* nineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378C80CF1EA9D5880004BFE0 /* nineViewController.swift */; };
+		378C80D21EA9FE590004BFE0 /* meilv.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 378C80D11EA9FE590004BFE0 /* meilv.jpg */; };
 		37D2FE0E1EA8C4E200F334C1 /* eightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D2FE0D1EA8C4E200F334C1 /* eightViewController.swift */; };
 		37F7EBE01EA6EA9A00C2B7DB /* videoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F7EBDF1EA6EA9A00C2B7DB /* videoListViewController.swift */; };
 		37F7EBE21EA6EAB100C2B7DB /* videoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F7EBE11EA6EAB100C2B7DB /* videoTableViewCell.swift */; };
@@ -71,6 +73,8 @@
 		37603C341EA8598900B900FA /* locationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = locationViewController.swift; sourceTree = "<group>"; };
 		37603C361EA85C0100B900FA /* desk_005.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = desk_005.jpg; sourceTree = "<group>"; };
 		378C80CD1EA991E50004BFE0 /* am.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = am.mp3; sourceTree = "<group>"; };
+		378C80CF1EA9D5880004BFE0 /* nineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = nineViewController.swift; sourceTree = "<group>"; };
+		378C80D11EA9FE590004BFE0 /* meilv.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = meilv.jpg; sourceTree = "<group>"; };
 		37D2FE0D1EA8C4E200F334C1 /* eightViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = eightViewController.swift; sourceTree = "<group>"; };
 		37F7EBDF1EA6EA9A00C2B7DB /* videoListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = videoListViewController.swift; sourceTree = "<group>"; };
 		37F7EBE11EA6EAB100C2B7DB /* videoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = videoTableViewCell.swift; sourceTree = "<group>"; };
@@ -138,6 +142,7 @@
 				37603C331EA8584A00B900FA /* six */,
 				370CECF91EA8A12E004141ED /* seven */,
 				37D2FE0F1EA8C4F200F334C1 /* eight */,
+				378C80D31EA9FE670004BFE0 /* nine */,
 				373EDC911EA5FC8100D2026A /* Main.storyboard */,
 				373EDC941EA5FC8100D2026A /* Assets.xcassets */,
 				373EDC961EA5FC8100D2026A /* LaunchScreen.storyboard */,
@@ -179,6 +184,15 @@
 				37603C361EA85C0100B900FA /* desk_005.jpg */,
 			);
 			name = six;
+			sourceTree = "<group>";
+		};
+		378C80D31EA9FE670004BFE0 /* nine */ = {
+			isa = PBXGroup;
+			children = (
+				378C80CF1EA9D5880004BFE0 /* nineViewController.swift */,
+				378C80D11EA9FE590004BFE0 /* meilv.jpg */,
+			);
+			name = nine;
 			sourceTree = "<group>";
 		};
 		37D2FE0F1EA8C4F200F334C1 /* eight */ = {
@@ -322,6 +336,7 @@
 				37603C371EA85C0100B900FA /* desk_005.jpg in Resources */,
 				37603C271EA846A500B900FA /* 2.jpg in Resources */,
 				37603C2E1EA846C100B900FA /* beijing.jpg in Resources */,
+				378C80D21EA9FE590004BFE0 /* meilv.jpg in Resources */,
 				378C80CE1EA991E50004BFE0 /* am.mp3 in Resources */,
 				373EDCAF1EA622ED00D2026A /* MFZhiHei_Noncommercial-Regular.ttf in Resources */,
 				373EDCAD1EA622ED00D2026A /* MFJinHei_Noncommercial-Regular.ttf in Resources */,
@@ -400,6 +415,7 @@
 				37F7EBE81EA736EB00C2B7DB /* fourViewController.swift in Sources */,
 				370CECF81EA8A123004141ED /* sevenViewController.swift in Sources */,
 				373EDCA61EA61E1100D2026A /* twoViewController.swift in Sources */,
+				378C80D01EA9D5880004BFE0 /* nineViewController.swift in Sources */,
 				37F7EBE01EA6EA9A00C2B7DB /* videoListViewController.swift in Sources */,
 				37603C351EA8598900B900FA /* locationViewController.swift in Sources */,
 				37F7EBF01EA73FF900C2B7DB /* rightViewVC.swift in Sources */,

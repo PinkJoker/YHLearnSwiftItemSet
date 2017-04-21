@@ -61,7 +61,9 @@ class rootViewController: UIViewController, UITableViewDataSource,UITableViewDel
         }else if indexPath.row == 7{
             let eightView = eightViewController()
         navigationController?.pushViewController(eightView, animated: true)
-            
+        }else if indexPath.row == 8{
+            let nineView = nineViewController()
+            navigationController?.pushViewController(nineView, animated: true)
         }
     }
     /*

@@ -82,6 +82,14 @@ extension eightViewController{
         gradientLayer.endPoint = CGPoint(x: 1, y: 1)
         view.layer.addSublayer(gradientLayer)
     }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+       
+//        audioPlayer
+    }
+
+    
+    
 }
 extension  eightViewController{
     func randomColor(){
