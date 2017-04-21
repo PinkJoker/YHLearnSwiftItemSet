@@ -7,29 +7,89 @@
 //
 
 import UIKit
+import AVFoundation
+
+var audioPlayer = AVAudioPlayer()
+let gradientLayer = CAGradientLayer()
+var time:Timer?
+var isPlaying = false
 
 class eightViewController: UIViewController {
-
+    
+    var musicButton:UIButton?
+    
     override func viewDidLoad() {
+        self.view.backgroundColor = UIColor.white
         super.viewDidLoad()
-
+     //   UIApplication.shared.isStatusBarHidden = true
+        
+        self.setUI()
         // Do any additional setup after loading the view.
     }
-
+    
+    func setUI(){
+        
+    musicButton = UIButton(frame: CGRect(x: self.view.center.x - 40, y: self.view.center.y-40, width: 80, height: 80))
+    view.addSubview(musicButton!)
+    musicButton?.backgroundColor = UIColor.brown
+        musicButton?.layer.cornerRadius = 40
+        musicButton?.clipsToBounds = true
+        musicButton?.layer.shadowOffset = CGSize(width: 3, height: 5)
+        musicButton?.layer.shadowColor = UIColor.brown.cgColor
+        musicButton?.layer.shadowRadius = 5
+        musicButton?.layer.shadowOpacity = 5
+        musicButton?.addTarget(self, action: #selector(touchMusicButton), for: .touchDown)
+        self.randomColor()
+    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }
+
+extension eightViewController{
+    func touchMusicButton(){
+        
+        let bgMusic = URL(fileURLWithPath: Bundle.main.path(forResource: "am", ofType: "mp3")!)
+        do {
+            try AVAudioSession.sharedInstance().setCategory(AVAudioSessionCategoryPlayback)
+            try AVAudioSession.sharedInstance().setActive(true)
+            try audioPlayer = AVAudioPlayer(contentsOf: bgMusic)
+            
+            if isPlaying == false {
+                audioPlayer.prepareToPlay()
+                audioPlayer.play()
+                isPlaying = true
+            }else{
+                audioPlayer.pause()
+                isPlaying = false
+            }
+        } catch _ as NSError {
+            
+        }
+        if time == nil {
+            time = Timer.scheduledTimer(timeInterval: 0.5, target: self, selector: #selector(randomColor), userInfo: nil, repeats: true)
+        }
+        gradientLayer.frame = view.bounds
+        let color1 = UIColor(white: 0.4, alpha: 0.3).cgColor
+        let color2 = UIColor(red: 1.0, green: 0, blue: 0, alpha: 0.3).cgColor
+        let color3 = UIColor(red: 0, green: 1, blue: 0, alpha: 0.6).cgColor
+        let color4 = UIColor(red: 0, green: 0, blue: 1, alpha: 0.2).cgColor
+        let color5 = UIColor(white: 0.6, alpha: 0.4).cgColor
+        gradientLayer.colors = [color1,color2,color3,color4,color5]
+        gradientLayer.locations = [0.10,0.35,0.55,0.75,0.90]
+        gradientLayer.startPoint = CGPoint(x: 0, y: 0)
+        gradientLayer.endPoint = CGPoint(x: 1, y: 1)
+        view.layer.addSublayer(gradientLayer)
+    }
+}
+extension  eightViewController{
+    func randomColor(){
+        let redV = CGFloat(drand48())
+        let blueV = CGFloat(drand48())
+        let greenV = CGFloat(drand48())
+        
+        self.view.backgroundColor = UIColor(red: redV, green: greenV, blue: blueV, alpha: 1)
+    }
+}
+

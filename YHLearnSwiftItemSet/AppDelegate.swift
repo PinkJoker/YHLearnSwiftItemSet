@@ -21,7 +21,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let nav = UINavigationController.init(rootViewController: root)
         nav.navigationBar.barTintColor = UIColor.black
         self.window?.rootViewController = nav
-        nav.navigationItem.title = "swift"
         self.window?.makeKeyAndVisible()
  
         return true

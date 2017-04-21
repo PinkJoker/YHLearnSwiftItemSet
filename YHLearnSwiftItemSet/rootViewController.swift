@@ -15,6 +15,10 @@ class rootViewController: UIViewController, UITableViewDataSource,UITableViewDel
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        navigationItem.title = "swift"
+        
+        
         self.rootTableView = UITableView.init()
         self.view.addSubview(self.rootTableView)
         self.rootTableView.dataSource = self
@@ -35,25 +39,29 @@ class rootViewController: UIViewController, UITableViewDataSource,UITableViewDel
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         if indexPath.row == 0 {
             let oneView = oneViewController()
-            self.navigationController?.pushViewController(oneView, animated: true)
+            navigationController?.pushViewController(oneView, animated: true)
         }else if indexPath.row == 1{
             let twoView = twoViewController()
-             self.navigationController?.pushViewController(twoView, animated: true)
+             navigationController?.pushViewController(twoView, animated: true)
         }else if indexPath.row == 2{
             let threeView = videoListViewController()
-            self.navigationController?.pushViewController(threeView, animated: true)
+            navigationController?.pushViewController(threeView, animated: true)
         }else if indexPath.row == 3{
             let fourView = fourViewController()
-            self.navigationController?.pushViewController(fourView, animated: true)
+            navigationController?.pushViewController(fourView, animated: true)
         }else if indexPath.row == 4{
             let fiveView = fiveViewController()
-            self.navigationController?.pushViewController(fiveView, animated: true)
+            navigationController?.pushViewController(fiveView, animated: true)
         }else if indexPath.row == 5{
             let sixView = locationViewController()
-            self.navigationController?.pushViewController(sixView, animated: true)
+            navigationController?.pushViewController(sixView, animated: true)
         }else if indexPath.row == 6{
             let sevenView = sevenViewController()
-            self.navigationController?.pushViewController(sevenView, animated: true)
+            navigationController?.pushViewController(sevenView, animated: true)
+        }else if indexPath.row == 7{
+            let eightView = eightViewController()
+        navigationController?.pushViewController(eightView, animated: true)
+            
         }
     }
     /*
