@@ -64,7 +64,16 @@ class rootViewController: UIViewController, UITableViewDataSource,UITableViewDel
         }else if indexPath.row == 8{
             let nineView = nineViewController()
             navigationController?.pushViewController(nineView, animated: true)
+        }else if indexPath.row == 9{
+            
+        }else if indexPath.row == 10{
+            let eleven = elevenTableViewController()
+            navigationController?.pushViewController(eleven, animated: true)
+        }else if indexPath.row == 11{
+            let twelve = twelveViewController()
+            navigationController?.pushViewController(twelve, animated: true)
         }
+        
     }
     /*
     // MARK: - Navigation
