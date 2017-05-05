@@ -18,8 +18,8 @@ struct resource {
 
 
 
-class fifthViewController: UIViewController,UITableViewDataSource,UITableViewDelegate {
-    
+class fifthViewController: UIViewController,UITableViewDataSource,UITableViewDelegate, MenuTransitionManagerDelegate {
+     let menuView = dropDownMenuManager()
     var newsTableView:UITableView?
     
     var data = [
@@ -46,8 +46,16 @@ class fifthViewController: UIViewController,UITableViewDataSource,UITableViewDel
     }
     
     func touchItem(){
-        
-        
+        let menuVC = MenuTableViewController()
+        menuVC.transitioningDelegate = menuView
+        menuView.delegate = self
+        self.present(menuVC, animated: true) { 
+            
+        }
+    }
+    
+    func dismiss() {
+        self.dismiss(animated: true, completion: nil)
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

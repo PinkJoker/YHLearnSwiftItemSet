@@ -13,7 +13,7 @@ import UIKit
 }
 
 
-class dropDownMenuManager: NSObject, UIViewControllerContextTransitioning, UIViewControllerTransitioningDelegate {
+class dropDownMenuManager: NSObject, UIViewControllerAnimatedTransitioning, UIViewControllerTransitioningDelegate {
 
     var duration = 0.5
     var isPresenting = false
@@ -28,7 +28,7 @@ class dropDownMenuManager: NSObject, UIViewControllerContextTransitioning, UIVie
         
     }
     var delegate:MenuTransitionManagerDelegate?
-    func transitionDuration(using transitionContext:UIViewControllerContextTransitioning) -> TimeInterval {
+    func transitionDuration(using transitionContext:UIViewControllerContextTransitioning?) -> TimeInterval {
         return duration
     }
     
