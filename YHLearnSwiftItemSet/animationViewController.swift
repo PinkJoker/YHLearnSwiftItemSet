@@ -18,7 +18,7 @@ class animationViewController: UIViewController {
         super.viewDidLoad()
         view.backgroundColor = UIColor.black
         
-        
+    
         nameTextField = UITextField(frame: CGRect(x:  -kWidth - 60, y: 80, width: kWidth - 60, height: 44))
         view.addSubview(nameTextField!)
         nameTextField?.backgroundColor = UIColor.white

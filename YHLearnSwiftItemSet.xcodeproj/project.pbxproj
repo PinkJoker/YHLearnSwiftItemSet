@@ -21,6 +21,10 @@
 		373EDCAD1EA622ED00D2026A /* MFJinHei_Noncommercial-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 373EDCA81EA622ED00D2026A /* MFJinHei_Noncommercial-Regular.ttf */; };
 		373EDCAE1EA622ED00D2026A /* MFTongXin_Noncommercial-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 373EDCA91EA622ED00D2026A /* MFTongXin_Noncommercial-Regular.ttf */; };
 		373EDCAF1EA622ED00D2026A /* MFZhiHei_Noncommercial-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 373EDCAA1EA622ED00D2026A /* MFZhiHei_Noncommercial-Regular.ttf */; };
+		3753A8131EB983CC00CC47AD /* fifthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3753A8121EB983CC00CC47AD /* fifthViewController.swift */; };
+		3753A8181EB9B10700CC47AD /* newssTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3753A8161EB9B10700CC47AD /* newssTableViewCell.swift */; };
+		3753A8191EB9B10700CC47AD /* newssTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3753A8171EB9B10700CC47AD /* newssTableViewCell.xib */; };
+		3753A81B1EB9C56B00CC47AD /* dropDownMenuManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3753A81A1EB9C56B00CC47AD /* dropDownMenuManager.swift */; };
 		37603C261EA846A500B900FA /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 37603C1F1EA846A500B900FA /* 1.jpg */; };
 		37603C271EA846A500B900FA /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 37603C201EA846A500B900FA /* 2.jpg */; };
 		37603C281EA846A500B900FA /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 37603C211EA846A500B900FA /* 3.jpg */; };
@@ -37,6 +41,7 @@
 		37BB9A761EADD25F00889438 /* elevenTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BB9A751EADD25F00889438 /* elevenTableViewController.swift */; };
 		37BB9A781EADD8F300889438 /* twelveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BB9A771EADD8F300889438 /* twelveViewController.swift */; };
 		37BB9A7A1EADDCCD00889438 /* animationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BB9A791EADDCCD00889438 /* animationViewController.swift */; };
+		37BB9A7E1EAE088F00889438 /* thirteenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BB9A7D1EAE088F00889438 /* thirteenViewController.swift */; };
 		37D2FE0E1EA8C4E200F334C1 /* eightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D2FE0D1EA8C4E200F334C1 /* eightViewController.swift */; };
 		37F7EBE01EA6EA9A00C2B7DB /* videoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F7EBDF1EA6EA9A00C2B7DB /* videoListViewController.swift */; };
 		37F7EBE21EA6EAB100C2B7DB /* videoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F7EBE11EA6EAB100C2B7DB /* videoTableViewCell.swift */; };
@@ -65,6 +70,10 @@
 		373EDCA81EA622ED00D2026A /* MFJinHei_Noncommercial-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MFJinHei_Noncommercial-Regular.ttf"; sourceTree = "<group>"; };
 		373EDCA91EA622ED00D2026A /* MFTongXin_Noncommercial-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MFTongXin_Noncommercial-Regular.ttf"; sourceTree = "<group>"; };
 		373EDCAA1EA622ED00D2026A /* MFZhiHei_Noncommercial-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MFZhiHei_Noncommercial-Regular.ttf"; sourceTree = "<group>"; };
+		3753A8121EB983CC00CC47AD /* fifthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = fifthViewController.swift; sourceTree = "<group>"; };
+		3753A8161EB9B10700CC47AD /* newssTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = newssTableViewCell.swift; sourceTree = "<group>"; };
+		3753A8171EB9B10700CC47AD /* newssTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = newssTableViewCell.xib; sourceTree = "<group>"; };
+		3753A81A1EB9C56B00CC47AD /* dropDownMenuManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dropDownMenuManager.swift; sourceTree = "<group>"; };
 		37603C1F1EA846A500B900FA /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
 		37603C201EA846A500B900FA /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
 		37603C211EA846A500B900FA /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
@@ -81,6 +90,7 @@
 		37BB9A751EADD25F00889438 /* elevenTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = elevenTableViewController.swift; sourceTree = "<group>"; };
 		37BB9A771EADD8F300889438 /* twelveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = twelveViewController.swift; sourceTree = "<group>"; };
 		37BB9A791EADDCCD00889438 /* animationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = animationViewController.swift; sourceTree = "<group>"; };
+		37BB9A7D1EAE088F00889438 /* thirteenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = thirteenViewController.swift; sourceTree = "<group>"; };
 		37D2FE0D1EA8C4E200F334C1 /* eightViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = eightViewController.swift; sourceTree = "<group>"; };
 		37F7EBDF1EA6EA9A00C2B7DB /* videoListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = videoListViewController.swift; sourceTree = "<group>"; };
 		37F7EBE11EA6EAB100C2B7DB /* videoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = videoTableViewCell.swift; sourceTree = "<group>"; };
@@ -151,6 +161,11 @@
 				378C80D31EA9FE670004BFE0 /* nine */,
 				37BB9A7C1EAE010300889438 /* eleven */,
 				37BB9A7B1EAE00FA00889438 /* twelve */,
+				37BB9A7D1EAE088F00889438 /* thirteenViewController.swift */,
+				3753A8121EB983CC00CC47AD /* fifthViewController.swift */,
+				3753A81A1EB9C56B00CC47AD /* dropDownMenuManager.swift */,
+				3753A8161EB9B10700CC47AD /* newssTableViewCell.swift */,
+				3753A8171EB9B10700CC47AD /* newssTableViewCell.xib */,
 				373EDC911EA5FC8100D2026A /* Main.storyboard */,
 				373EDC941EA5FC8100D2026A /* Assets.xcassets */,
 				373EDC961EA5FC8100D2026A /* LaunchScreen.storyboard */,
@@ -353,6 +368,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				37603C2A1EA846A500B900FA /* 5.jpeg in Resources */,
+				3753A8191EB9B10700CC47AD /* newssTableViewCell.xib in Resources */,
 				37603C291EA846A500B900FA /* 4.jpg in Resources */,
 				37603C2B1EA846A500B900FA /* 6.jpeg in Resources */,
 				37603C281EA846A500B900FA /* 3.jpg in Resources */,
@@ -433,6 +449,7 @@
 				37F7EBEC1EA73B6500C2B7DB /* centerView.swift in Sources */,
 				373EDCA21EA604D900D2026A /* rootViewController.swift in Sources */,
 				37F7EBE21EA6EAB100C2B7DB /* videoTableViewCell.swift in Sources */,
+				37BB9A7E1EAE088F00889438 /* thirteenViewController.swift in Sources */,
 				37D2FE0E1EA8C4E200F334C1 /* eightViewController.swift in Sources */,
 				373EDC8E1EA5FC8100D2026A /* AppDelegate.swift in Sources */,
 				37603C321EA84ABA00B900FA /* dataSources.swift in Sources */,
@@ -440,9 +457,12 @@
 				37F7EBF41EA757A700C2B7DB /* fiveViewController.swift in Sources */,
 				37F7EBE81EA736EB00C2B7DB /* fourViewController.swift in Sources */,
 				370CECF81EA8A123004141ED /* sevenViewController.swift in Sources */,
+				3753A8181EB9B10700CC47AD /* newssTableViewCell.swift in Sources */,
 				37BB9A781EADD8F300889438 /* twelveViewController.swift in Sources */,
 				373EDCA61EA61E1100D2026A /* twoViewController.swift in Sources */,
 				378C80D01EA9D5880004BFE0 /* nineViewController.swift in Sources */,
+				3753A81B1EB9C56B00CC47AD /* dropDownMenuManager.swift in Sources */,
+				3753A8131EB983CC00CC47AD /* fifthViewController.swift in Sources */,
 				37F7EBE01EA6EA9A00C2B7DB /* videoListViewController.swift in Sources */,
 				37603C351EA8598900B900FA /* locationViewController.swift in Sources */,
 				37F7EBF01EA73FF900C2B7DB /* rightViewVC.swift in Sources */,

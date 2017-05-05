@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import SnapKit
+//import SnapKit
 class rootViewController: UIViewController, UITableViewDataSource,UITableViewDelegate {
 
     var rootTableView:UITableView!
@@ -66,12 +66,19 @@ class rootViewController: UIViewController, UITableViewDataSource,UITableViewDel
             navigationController?.pushViewController(nineView, animated: true)
         }else if indexPath.row == 9{
             
+            
         }else if indexPath.row == 10{
             let eleven = elevenTableViewController()
             navigationController?.pushViewController(eleven, animated: true)
         }else if indexPath.row == 11{
             let twelve = twelveViewController()
             navigationController?.pushViewController(twelve, animated: true)
+        }else if indexPath.row == 12{
+            let thirteen = thirteenViewController()
+            navigationController?.pushViewController(thirteen, animated: true)
+        }else if indexPath.row == 14{
+            let fifteen = fifthViewController()
+            navigationController?.pushViewController(fifteen, animated: true)
         }
         
     }
