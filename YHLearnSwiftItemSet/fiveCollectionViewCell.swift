@@ -49,6 +49,9 @@ class fiveCollectionViewCell: UICollectionViewCell {
         detailLabel?.text = dataes.description
     }
     
+    override func layoutSubviews() {
+        print("进入layout")
+    }
     
     
     required init?(coder aDecoder: NSCoder) {

@@ -11,7 +11,7 @@ import UIKit
 class rootViewController: UIViewController, UITableViewDataSource,UITableViewDelegate {
 
     var rootTableView:UITableView!
-    let titleArray:Array = ["oneDay","twoDay","three","four","five","six","seven","eight","nine","ten","eleven","12","13","14","15"]
+    let titleArray:Array = ["oneDay","twoDay","three","four","five","six","seven","eight","nine","ten","eleven","12","13","14","15","16","17","18","19","20","21","22","23","25"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -79,6 +79,10 @@ class rootViewController: UIViewController, UITableViewDataSource,UITableViewDel
         }else if indexPath.row == 14{
             let fifteen = fifthViewController()
             navigationController?.pushViewController(fifteen, animated: true)
+        }else if indexPath.row == 15{
+            let sixteen = sixTeenViewController()
+            navigationController?.pushViewController(sixteen, animated: true)
+            
         }
         
     }

@@ -21,7 +21,7 @@ struct resource {
 class fifthViewController: UIViewController,UITableViewDataSource,UITableViewDelegate, MenuTransitionManagerDelegate {
      let menuView = dropDownMenuManager()
     var newsTableView:UITableView?
-    
+
     var data = [
         resource(bgimage: "1", titleText: "Love Mountain", authorText: "jack", iconImage: "a"),
         resource(bgimage: "2", titleText: "New graphic design - LIVE FREE", authorText: "Cole", iconImage: "b"),
@@ -68,7 +68,7 @@ extension fifthViewController{
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "listCell", for: indexPath) as! newssTableViewCell
         let indexData = data[indexPath.row]
-        cell.bgImage.image = UIImage(named: indexData.bgimage)
+        cell.bgImage.image = UIImage(named: data[indexPath.row].bgimage)
         cell.titleLabel.text = indexData.titleText
         cell.detailLabel.text = indexData.authorText
         cell.iconImage.image = UIImage(named: indexData.iconImage)
