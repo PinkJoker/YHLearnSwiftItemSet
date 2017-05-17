@@ -35,6 +35,8 @@
 		37603C321EA84ABA00B900FA /* dataSources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37603C311EA84ABA00B900FA /* dataSources.swift */; };
 		37603C351EA8598900B900FA /* locationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37603C341EA8598900B900FA /* locationViewController.swift */; };
 		37603C371EA85C0100B900FA /* desk_005.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 37603C361EA85C0100B900FA /* desk_005.jpg */; };
+		37896DEF1ECC2FC200736FF6 /* SeventeenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37896DED1ECC2FC200736FF6 /* SeventeenViewController.swift */; };
+		37896DF01ECC2FC200736FF6 /* SeventeenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37896DEE1ECC2FC200736FF6 /* SeventeenViewController.xib */; };
 		378C80CE1EA991E50004BFE0 /* am.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 378C80CD1EA991E50004BFE0 /* am.mp3 */; };
 		378C80D01EA9D5880004BFE0 /* nineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378C80CF1EA9D5880004BFE0 /* nineViewController.swift */; };
 		378C80D21EA9FE590004BFE0 /* meilv.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 378C80D11EA9FE590004BFE0 /* meilv.jpg */; };
@@ -89,6 +91,8 @@
 		37603C311EA84ABA00B900FA /* dataSources.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dataSources.swift; sourceTree = "<group>"; };
 		37603C341EA8598900B900FA /* locationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = locationViewController.swift; sourceTree = "<group>"; };
 		37603C361EA85C0100B900FA /* desk_005.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = desk_005.jpg; sourceTree = "<group>"; };
+		37896DED1ECC2FC200736FF6 /* SeventeenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeventeenViewController.swift; sourceTree = "<group>"; };
+		37896DEE1ECC2FC200736FF6 /* SeventeenViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SeventeenViewController.xib; sourceTree = "<group>"; };
 		378C80CD1EA991E50004BFE0 /* am.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = am.mp3; sourceTree = "<group>"; };
 		378C80CF1EA9D5880004BFE0 /* nineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = nineViewController.swift; sourceTree = "<group>"; };
 		378C80D11EA9FE590004BFE0 /* meilv.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = meilv.jpg; sourceTree = "<group>"; };
@@ -254,6 +258,8 @@
 				37DDB8F71EC2BEFB00B68FC5 /* sixTeenMenuViewController.swift */,
 				37DDB8FB1EC2E42800B68FC5 /* sixMenuManager.swift */,
 				37DDB8F81EC2BEFB00B68FC5 /* sixTeenMenuViewController.xib */,
+				37896DED1ECC2FC200736FF6 /* SeventeenViewController.swift */,
+				37896DEE1ECC2FC200736FF6 /* SeventeenViewController.xib */,
 			);
 			name = sixteen;
 			sourceTree = "<group>";
@@ -406,6 +412,7 @@
 				373EDCAD1EA622ED00D2026A /* MFJinHei_Noncommercial-Regular.ttf in Resources */,
 				373EDC951EA5FC8100D2026A /* Assets.xcassets in Resources */,
 				37F7EBE51EA7101A00C2B7DB /* emoji zone.mp4 in Resources */,
+				37896DF01ECC2FC200736FF6 /* SeventeenViewController.xib in Resources */,
 				37603C261EA846A500B900FA /* 1.jpg in Resources */,
 				373EDCAE1EA622ED00D2026A /* MFTongXin_Noncommercial-Regular.ttf in Resources */,
 				37DDB8FA1EC2BEFB00B68FC5 /* sixTeenMenuViewController.xib in Resources */,
@@ -483,6 +490,7 @@
 				37F7EBF41EA757A700C2B7DB /* fiveViewController.swift in Sources */,
 				37F7EBE81EA736EB00C2B7DB /* fourViewController.swift in Sources */,
 				370CECF81EA8A123004141ED /* sevenViewController.swift in Sources */,
+				37896DEF1ECC2FC200736FF6 /* SeventeenViewController.swift in Sources */,
 				37DDB8F21EC2BD8200B68FC5 /* sixTeenViewController.swift in Sources */,
 				3753A8181EB9B10700CC47AD /* newssTableViewCell.swift in Sources */,
 				37BB9A781EADD8F300889438 /* twelveViewController.swift in Sources */,

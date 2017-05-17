@@ -34,7 +34,7 @@ class sixTeenMenuViewController: UIViewController {
     }
     @IBAction func backButton(_ sender: Any) {
         self.dismiss(animated: true) { 
-            self.navigationController?.isNavigationBarHidden = false
+            //self.navigationController?.isNavigationBarHidden = false
         }
     }
     
