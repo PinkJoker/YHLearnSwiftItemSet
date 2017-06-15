@@ -35,6 +35,7 @@
 		37603C321EA84ABA00B900FA /* dataSources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37603C311EA84ABA00B900FA /* dataSources.swift */; };
 		37603C351EA8598900B900FA /* locationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37603C341EA8598900B900FA /* locationViewController.swift */; };
 		37603C371EA85C0100B900FA /* desk_005.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 37603C361EA85C0100B900FA /* desk_005.jpg */; };
+		377957921ED81F47002306DD /* RefreshContents.xib in Resources */ = {isa = PBXBuildFile; fileRef = 377957911ED81F47002306DD /* RefreshContents.xib */; };
 		37896DEF1ECC2FC200736FF6 /* SeventeenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37896DED1ECC2FC200736FF6 /* SeventeenViewController.swift */; };
 		37896DF01ECC2FC200736FF6 /* SeventeenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37896DEE1ECC2FC200736FF6 /* SeventeenViewController.xib */; };
 		378C80CE1EA991E50004BFE0 /* am.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 378C80CD1EA991E50004BFE0 /* am.mp3 */; };
@@ -46,6 +47,7 @@
 		37BB9A7E1EAE088F00889438 /* thirteenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BB9A7D1EAE088F00889438 /* thirteenViewController.swift */; };
 		37BED50A1EBC75920013C103 /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BED5091EBC75920013C103 /* MenuTableViewController.swift */; };
 		37D2FE0E1EA8C4E200F334C1 /* eightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D2FE0D1EA8C4E200F334C1 /* eightViewController.swift */; };
+		37D34FC91ED3E4A300990E3E /* eightTeenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D34FC81ED3E4A300990E3E /* eightTeenViewController.swift */; };
 		37DDB8F21EC2BD8200B68FC5 /* sixTeenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DDB8F11EC2BD8200B68FC5 /* sixTeenViewController.swift */; };
 		37DDB8F91EC2BEFB00B68FC5 /* sixTeenMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DDB8F71EC2BEFB00B68FC5 /* sixTeenMenuViewController.swift */; };
 		37DDB8FA1EC2BEFB00B68FC5 /* sixTeenMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37DDB8F81EC2BEFB00B68FC5 /* sixTeenMenuViewController.xib */; };
@@ -91,6 +93,7 @@
 		37603C311EA84ABA00B900FA /* dataSources.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dataSources.swift; sourceTree = "<group>"; };
 		37603C341EA8598900B900FA /* locationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = locationViewController.swift; sourceTree = "<group>"; };
 		37603C361EA85C0100B900FA /* desk_005.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = desk_005.jpg; sourceTree = "<group>"; };
+		377957911ED81F47002306DD /* RefreshContents.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RefreshContents.xib; sourceTree = "<group>"; };
 		37896DED1ECC2FC200736FF6 /* SeventeenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeventeenViewController.swift; sourceTree = "<group>"; };
 		37896DEE1ECC2FC200736FF6 /* SeventeenViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SeventeenViewController.xib; sourceTree = "<group>"; };
 		378C80CD1EA991E50004BFE0 /* am.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = am.mp3; sourceTree = "<group>"; };
@@ -102,6 +105,7 @@
 		37BB9A7D1EAE088F00889438 /* thirteenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = thirteenViewController.swift; sourceTree = "<group>"; };
 		37BED5091EBC75920013C103 /* MenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
 		37D2FE0D1EA8C4E200F334C1 /* eightViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = eightViewController.swift; sourceTree = "<group>"; };
+		37D34FC81ED3E4A300990E3E /* eightTeenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = eightTeenViewController.swift; sourceTree = "<group>"; };
 		37DDB8F11EC2BD8200B68FC5 /* sixTeenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sixTeenViewController.swift; sourceTree = "<group>"; };
 		37DDB8F71EC2BEFB00B68FC5 /* sixTeenMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sixTeenMenuViewController.swift; sourceTree = "<group>"; };
 		37DDB8F81EC2BEFB00B68FC5 /* sixTeenMenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = sixTeenMenuViewController.xib; sourceTree = "<group>"; };
@@ -175,13 +179,14 @@
 				378C80D31EA9FE670004BFE0 /* nine */,
 				37BB9A7C1EAE010300889438 /* eleven */,
 				37BB9A7B1EAE00FA00889438 /* twelve */,
-				37BB9A7D1EAE088F00889438 /* thirteenViewController.swift */,
+				37D34FC61ED3E44700990E3E /* thirdteen */,
 				3753A8121EB983CC00CC47AD /* fifthViewController.swift */,
 				3753A81A1EB9C56B00CC47AD /* dropDownMenuManager.swift */,
 				37BED5091EBC75920013C103 /* MenuTableViewController.swift */,
 				3753A8161EB9B10700CC47AD /* newssTableViewCell.swift */,
-				37CE2DBB1ECAF7A700E0AE9E /* sixteen */,
 				3753A8171EB9B10700CC47AD /* newssTableViewCell.xib */,
+				37CE2DBB1ECAF7A700E0AE9E /* sixteen */,
+				37D34FC71ED3E45D00990E3E /* seventeen */,
 				373EDC911EA5FC8100D2026A /* Main.storyboard */,
 				373EDC941EA5FC8100D2026A /* Assets.xcassets */,
 				373EDC961EA5FC8100D2026A /* LaunchScreen.storyboard */,
@@ -258,8 +263,6 @@
 				37DDB8F71EC2BEFB00B68FC5 /* sixTeenMenuViewController.swift */,
 				37DDB8FB1EC2E42800B68FC5 /* sixMenuManager.swift */,
 				37DDB8F81EC2BEFB00B68FC5 /* sixTeenMenuViewController.xib */,
-				37896DED1ECC2FC200736FF6 /* SeventeenViewController.swift */,
-				37896DEE1ECC2FC200736FF6 /* SeventeenViewController.xib */,
 			);
 			name = sixteen;
 			sourceTree = "<group>";
@@ -271,6 +274,25 @@
 				378C80CD1EA991E50004BFE0 /* am.mp3 */,
 			);
 			name = eight;
+			sourceTree = "<group>";
+		};
+		37D34FC61ED3E44700990E3E /* thirdteen */ = {
+			isa = PBXGroup;
+			children = (
+				37BB9A7D1EAE088F00889438 /* thirteenViewController.swift */,
+			);
+			name = thirdteen;
+			sourceTree = "<group>";
+		};
+		37D34FC71ED3E45D00990E3E /* seventeen */ = {
+			isa = PBXGroup;
+			children = (
+				37896DED1ECC2FC200736FF6 /* SeventeenViewController.swift */,
+				37896DEE1ECC2FC200736FF6 /* SeventeenViewController.xib */,
+				37D34FC81ED3E4A300990E3E /* eightTeenViewController.swift */,
+				377957911ED81F47002306DD /* RefreshContents.xib */,
+			);
+			name = seventeen;
 			sourceTree = "<group>";
 		};
 		37F7EBE31EA6EAC600C2B7DB /* three */ = {
@@ -409,6 +431,7 @@
 				378C80D21EA9FE590004BFE0 /* meilv.jpg in Resources */,
 				378C80CE1EA991E50004BFE0 /* am.mp3 in Resources */,
 				373EDCAF1EA622ED00D2026A /* MFZhiHei_Noncommercial-Regular.ttf in Resources */,
+				377957921ED81F47002306DD /* RefreshContents.xib in Resources */,
 				373EDCAD1EA622ED00D2026A /* MFJinHei_Noncommercial-Regular.ttf in Resources */,
 				373EDC951EA5FC8100D2026A /* Assets.xcassets in Resources */,
 				37F7EBE51EA7101A00C2B7DB /* emoji zone.mp4 in Resources */,
@@ -479,6 +502,7 @@
 				37F7EBF61EA7720700C2B7DB /* fiveCollectionViewCell.swift in Sources */,
 				37DDB8F91EC2BEFB00B68FC5 /* sixTeenMenuViewController.swift in Sources */,
 				37F7EBEC1EA73B6500C2B7DB /* centerView.swift in Sources */,
+				37D34FC91ED3E4A300990E3E /* eightTeenViewController.swift in Sources */,
 				373EDCA21EA604D900D2026A /* rootViewController.swift in Sources */,
 				37F7EBE21EA6EAB100C2B7DB /* videoTableViewCell.swift in Sources */,
 				37BB9A7E1EAE088F00889438 /* thirteenViewController.swift in Sources */,

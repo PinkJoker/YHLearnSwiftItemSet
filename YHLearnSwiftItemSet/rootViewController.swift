@@ -85,8 +85,11 @@ class rootViewController: UIViewController, UITableViewDataSource,UITableViewDel
         }else if indexPath.row == 16{
             let seventeen = SeventeenViewController()
             navigationController?.pushViewController(seventeen, animated: true)
+        }else if indexPath.row == 17{
+            let eightteen = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "eightteen") as! eightTeenViewController
+//            let vc = eighttee
+            navigationController?.pushViewController(eightteen, animated: true)
         }
-        
     }
     /*
     // MARK: - Navigation
